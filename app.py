@@ -189,7 +189,7 @@ with tab3:
                     "vehicle_number": vehicle_number
                 }
 
-                result = db.add_log(log_data)
+                result = db.add_logs(log_data)
                 if result:
                     st.success("New log added successfully!")
                 else:
